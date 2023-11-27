@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "nativewind": "4.0.13",
+    "nativewind": "4.0.16",
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",

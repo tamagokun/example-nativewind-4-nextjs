@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  transpilePackages: ["nativewind", "react-native-css-interop"],
+  transpilePackages: ["react-native", "nativewind", "react-native-css-interop"],
   webpack: (config) => {
     config.resolve.alias = {
       ...(config.resolve.alias || {}),

@@ -1,4 +1,12 @@
 module.exports = {
   presets: ["next/babel"],
-  plugins: [["react-native-web", { commonjs: true }]],
+  plugins: [
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        runtime: "automatic",
+        importSource: "nativewind",
+      },
+    ],
+  ],
 };
